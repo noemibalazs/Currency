@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Currency</string>
+    <string name="title_home">Home</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="add_currency">Add a currency</string>
+    <string name="base_currency">EUR</string>
+    <string name="currency_name">Euro</string>
+    <string name="cur_price">1.34</string>
+    <string name="check">Your amount</string>
+    <string name="toast">Something went wrong, try it later!</string>
+    <string name="error">Something is broken!</string>
+    <string name="favorite">Currency was added to the favorites!</string>
+
+    <string name="attention1">Please press the check button!</string>
+    <string name="attention2">Please add at least one currency to your favorites!</string>
+
+    <string name="api_key">YOUR_KEY</string>
+    <string name="sum">Amount:</string>
+
+</resources>
