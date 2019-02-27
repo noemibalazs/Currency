@@ -14,7 +14,7 @@
     <string name="attention1">Please press the check button!</string>
     <string name="attention2">Please add at least one currency to your favorites!</string>
 
-    <string name="api_key">YOUR_KEY</string>
+    <string name="api_key">YOUR KEY</string>
     <string name="sum">Amount:</string>
 
 </resources>

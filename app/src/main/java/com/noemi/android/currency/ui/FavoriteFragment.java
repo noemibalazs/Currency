@@ -1,7 +1,6 @@
 package com.noemi.android.currency.ui;
 
 
-import android.app.ProgressDialog;
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
 import android.content.Context;
@@ -27,7 +26,6 @@ import android.widget.Toast;
 import com.noemi.android.currency.R;
 import com.noemi.android.currency.activity.AddActivity;
 import com.noemi.android.currency.adapter.RecycleAdapter;
-import com.noemi.android.currency.room.CurrencyEntity;
 import com.noemi.android.currency.room.CurrencyExecutor;
 import com.noemi.android.currency.room.FavoriteDataBase;
 import com.noemi.android.currency.room.FavoriteEntity;

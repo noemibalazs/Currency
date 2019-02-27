@@ -12,9 +12,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.noemi.android.currency.R;
-import com.noemi.android.currency.adapter.CurrencyAdapter;
 import com.noemi.android.currency.adapter.FavoriteAdapter;
-import com.noemi.android.currency.room.CurrencyDataBase;
 import com.noemi.android.currency.room.CurrencyEntity;
 import com.noemi.android.currency.room.CurrencyExecutor;
 import com.noemi.android.currency.room.CurrencyViewModel;

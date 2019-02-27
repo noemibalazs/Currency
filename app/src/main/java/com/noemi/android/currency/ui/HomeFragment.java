@@ -28,7 +28,6 @@ import com.noemi.android.currency.room.CurrencyEntity;
 import com.noemi.android.currency.room.CurrencyExecutor;
 import com.noemi.android.currency.room.CurrencyViewModel;
 
-import java.lang.ref.PhantomReference;
 import java.util.List;
 
 import retrofit2.Call;

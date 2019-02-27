@@ -10,7 +10,6 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import com.noemi.android.currency.R;
-import com.noemi.android.currency.room.CurrencyEntity;
 import com.noemi.android.currency.room.FavoriteEntity;
 
 import java.util.List;
