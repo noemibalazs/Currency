@@ -7,14 +7,13 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
-import android.widget.TextView;
+import android.view.View;
+import android.widget.ImageView;
 
 import com.noemi.android.currency.R;
-import com.noemi.android.currency.ui.FavoriteFragment;
-import com.noemi.android.currency.ui.HomeFragment;
+
 
 public class MainActivity extends AppCompatActivity {
-
 
     private BottomNavigationView navigationView;
 
@@ -44,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        navigationView.setSelectedItemId(R.id.navigation_home);
+       //navigationView.setSelectedItemId(R.id.navigation_home);
 
     }
 

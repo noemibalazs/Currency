@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
@@ -31,11 +32,7 @@ import com.noemi.android.currency.room.FavoriteDataBase;
 import com.noemi.android.currency.room.FavoriteEntity;
 import com.noemi.android.currency.room.FavoriteViewModel;
 
-import java.util.ArrayList;
 import java.util.List;
-
-import static android.content.Context.MODE_PRIVATE;
-import static android.content.Context.TELECOM_SERVICE;
 
 public class FavoriteFragment extends Fragment {
 
@@ -183,5 +180,12 @@ public class FavoriteFragment extends Fragment {
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putString(MY_PREF, String.valueOf(amount));
         editor.apply();
+    }
+
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        setUpUi();
     }
 }
